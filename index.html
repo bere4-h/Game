@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADIVINA LA PALABRA</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+
+
+
+    <img src="Game.JPG.png" alt="Imagen del juego">
+
+    <section>
+        <h2>          ꧁•⊹٭𝘼𝘿𝙄𝙑𝙄𝙉𝘼 𝙇𝘼 𝙋𝘼𝙇𝘼𝘽𝙍𝘼٭⊹•꧂</h2>
+
+        <h3>Intentos restantes: <span id="intentos">5</span></h3>
+        <h3>Letras incorrectas: <span id="letrasIngresadas">C-L-I-N</span></h3>
+
+        <div id="palabra">
+            <!-- Las letras a adivinar se generarán aquí -->
+        </div>
+
+        <h3>Pista: <span id="ayuda">Son las capas del Modelo TCP/IP</span></h3>
+        
+        <button onclick="cargarNuevaPalabra()">Nueva Palabra</button>
+    </section>
+    <audio controls autoplay loop >
+        <source src="sound.mp3">
+        <source src="jazz.ogg">
+        </audio>
+    <script src="script.js"></script>
+</body>
+</html>

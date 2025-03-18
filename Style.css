@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+body {
+
+
+    background: linear-gradient(#8674e1, #45baec);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Asegura que los elementos se alineen de arriba hacia abajo */
+    margin: 0; /* Elimina el margen por defecto */
+    
+
+}
+
+
+img {
+    max-width: 30%; /* Evita que la imagen se salga de los límites */
+    height: auto; /* Mantiene la relación de aspecto */
+    margin-bottom: 10px; /* Da espacio entre la imagen y el contenido siguiente */
+    
+
+    background-image: url("/fondo.jpg");
+}
+
+section {
+    width: 800px;
+    background-color: #eddede;
+    border: 7px solid #ae91c5;
+    padding: 7px;
+    text-align: center; /* Centra el contenido dentro del section */
+}
+
+h2 {
+    border-bottom: 1px solid #9b58d1;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#palabra {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.letra {
+    height: 50px;
+    width: 500px;
+    border: 2px solid #d158bd;
+    text-align: center;
+    margin: 4px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.pintar {
+    background-color: rgb(40, 221, 61);
+}
+
+.pintarerror {
+    background-color: #e91414;
+}
+
+h3 {
+    margin: 4px 0;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+h3 span {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+button {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    background-color: aqua;
+    color: rgb(197, 83, 186);
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #02bfa4;
+}
